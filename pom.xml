@@ -96,6 +96,7 @@
         <module>plugin/trino-mongodb</module>
         <module>plugin/trino-mysql</module>
         <module>plugin/trino-mysql-event-listener</module>
+        <module>plugin/trino-oceanbase</module>
         <module>plugin/trino-opa</module>
         <module>plugin/trino-openlineage</module>
         <module>plugin/trino-opensearch</module>
@@ -639,6 +640,12 @@
                 <artifactId>oauth2-oidc-sdk</artifactId>
                 <version>11.19.1</version>
                 <classifier>jdk11</classifier>
+            </dependency>
+
+            <dependency>
+                <groupId>com.oceanbase</groupId>
+                <artifactId>oceanbase-client</artifactId>
+                <version>2.4.11</version>
             </dependency>
 
             <dependency>
